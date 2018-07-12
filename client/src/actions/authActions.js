@@ -4,7 +4,7 @@ import jwt_decode from 'jwt-decode';
 
 import { GET_ERRORS, SET_CURRENT_USER } from './types';
 
-const API = null
+const API = `https://aqueous-wave-72791.herokuapp.com`
 
 // Register User
 export const registerUser = (userData, history) => dispatch => {
