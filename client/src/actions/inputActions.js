@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = `https://aqueous-wave-72791.herokuapp.com`
+const API = `https://aqueous-wave-72791.herokuapp.com/api/main/patients`
 
 export const registerPatient = (newPatient, history) => dispatch => {
   axios

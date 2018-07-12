@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {GET_PATIENTS, GET_RECORDS, GET_RECORD} from './types';
 
-const API = `https://aqueous-wave-72791.herokuapp.com`
+const API = `https://aqueous-wave-72791.herokuapp.com/api/main/patients`
 
 export const getPatients = () => dispatch => {
     axios.get(API)
