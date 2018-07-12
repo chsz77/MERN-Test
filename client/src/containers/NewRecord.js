@@ -77,7 +77,7 @@ class NewRecord extends Component {
         return(
             <div className="col-md-9 my-4">
                 <h1 className="display-4">Add a New Record</h1>
-                <Moment className="lead" format="MMMM do, YYYY"/>
+                <Moment className="lead" format="MMMM Do, YYYY"/>
                 <hr/>
                 <form className="form-group" onSubmit={this.onSubmit}>
                     <label>Symptomps:</label>
